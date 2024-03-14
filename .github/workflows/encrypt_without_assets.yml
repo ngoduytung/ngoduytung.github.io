@@ -39,7 +39,7 @@ jobs:
           --template "password_template.html"
           --template-title "Protégé par mot de passe !<br><em>Password Protected!</em>"
           --template-instructions "Veuillez saisir le mot de passe pour accéder au site Web :<br><em>Please enter password to enter the website:</em>"
-          --template-button "Ouvrir la page / <em>Open Page</em>"
+          --template-button "Ouvrir la page / Open Page"
           --template-color-primary "#9f1111"
           --template-color-secondary "#e4e4e4"
           
