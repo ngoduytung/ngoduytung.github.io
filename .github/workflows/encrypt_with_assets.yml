@@ -39,7 +39,6 @@ jobs:
           python embed.py
       - name: Encrypt index
         run: >
-          --template-color-secondary "#e4e4e4"
           staticrypt main.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
           --template "password_template.html"
           --template-title "Protégé par mot de passe !<br><em>Password Protected!</em>"
