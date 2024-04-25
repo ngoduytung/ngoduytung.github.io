@@ -39,13 +39,15 @@ jobs:
           python embed.py
       - name: Encrypt index
         run: >
-          staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
-          --template "password_template.html"
-          --template-title "Password Protected!"
-          --template-instructions "Please enter password to enter the website:"
-          --template-button "Open Page"
-          --template-color-primary "#113e9f"
           --template-color-secondary "#e4e4e4"
+          staticrypt main.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
+          --template "password_template.html"
+          --template-title "Protégé par mot de passe !<br><em>Password Protected!</em>"
+          --template-instructions "Veuillez saisir le mot de passe pour accéder au site Web :<br><em>Please enter password to enter the website:</em>"
+          --template-button "Ouvrir la page / Open Page"
+          --template-color-primary "#9f1111"
+          --template-color-secondary "#e4e4e4"
+          
       - name: Clean up
         run: |
           mv encrypted/index.html index.html
