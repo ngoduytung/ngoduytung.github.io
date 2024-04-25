@@ -39,7 +39,7 @@ jobs:
           python embed.py
       - name: Encrypt index
         run: >
-          staticrypt main.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
+          staticrypt index.html -p ${{ secrets.DECRYPTION_PASSPHRASE }} --short
           --template "password_template.html"
           --template-title "Protégé par mot de passe !<br><em>Password Protected!</em>"
           --template-instructions "Veuillez saisir le mot de passe pour accéder au site Web :<br><em>Please enter password to enter the website:</em>"
