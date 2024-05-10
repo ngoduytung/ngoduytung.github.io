@@ -163,7 +163,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #000000;
-		font-family: "Novel Sans Pro", Helvetica, sans-serif;
+		font-family: "Novel Sans Pro", Novel Sans Pro, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		letter-spacing: 0.0375em;
