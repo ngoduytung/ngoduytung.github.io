@@ -1961,7 +1961,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #fc4949;
+			background-color: #ff5e5e;
 			box-shadow: none;
 			color: #000000 !important;
 		}
