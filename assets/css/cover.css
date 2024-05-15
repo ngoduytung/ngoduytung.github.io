@@ -2526,7 +2526,7 @@ input, select, textarea {
  /* Container holding the image and the text */
 .container {
   position: relative;
-  text-align: center;
+  text-align: right;
   color: white;
 }
 
